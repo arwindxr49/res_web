@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"> <!-- Font Awesome -->
+    <title>Arwinder's Hunger Hub</title>
+</head>
+<body>
+    <header>
+        <!-- Logo -->
+        <div class="logo">
+            <img src="img/WhatsApp Image 2024-11-17 at 17.03.29_184a78a5.jpg" alt="Arwinder's Hunger Hub">
+            <h1>Arwinder's Hunger Hub</h1>
+        </div>
+        <nav class="navbar">
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#menu"><i class="fas fa-utensils"></i> Menu</a></li>
+                <li><a href="#about"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="#orders"><i class="fas fa-shopping-cart"></i> Orders</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <h1>Delicious Food You Must Try</h1>
+        <a href="https://www.instagram.com/arwinder.x49" class="ord-btn">
+            <i class="fas fa-shopping-bag"></i> Order Now
+        </a>
+    </section>
+    
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="img/burger.jpg" alt="Burger">
+                <h3>Burger</h3>
+                <p><b>Delicious starter to whet your appetite.</b></p>
+                <span><b>$10</b></span>
+            </div>
+            <div class="menu-item">
+                <img src="img/pizza.jpg" alt="Pizza">
+                <h3>Pizza</h3>
+                <p><b>Hearty main dishes to satisfy your hunger.</b></p>
+                <span><b>$20</b></span>
+            </div>
+            <div class="menu-item">
+                <img src="img/gulab.jpg" alt="Dessert">
+                <h3>Dessert</h3>
+                <p><b>Sweet treats to finish off your meal.</b></p>
+                <span><b>$8</b></span>
+            </div>
+            <div class="menu-item">
+                <img src="img/gulab.jpg" alt="Dessert">
+                <h3>Dessert</h3>
+                <p><b>Sweet treats to finish off your meal.</b></p>
+                <span><b>$8</b></span>
+            </div>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="img/burger.jpg" alt="Burger">
+                <h3>Burger</h3>
+                <p><b>Delicious starter to whet your appetite.</b></p>
+                <span><b>$10</b></span>
+            </div>
+            <div class="menu-item">
+                <img src="img/pizza.jpg" alt="Pizza">
+                <h3>Pizza</h3>
+                <p><b>Hearty main dishes to satisfy your hunger.</b></p>
+                <span><b>$20</b></span>
+            </div>
+            <div class="menu-item">
+                <img src="img/gulab.jpg" alt="Dessert">
+                <h3>Dessert</h3>
+                <p><b>Sweet treats to finish off your meal.</b></p>
+                <span><b>$8</b></span>
+            </div>
+            <div class="menu-item">
+                <img src="img/gulab.jpg" alt="Dessert">
+                <h3>Dessert</h3>
+                <p><b>Sweet treats to finish off your meal.</b></p>
+                <span><b>$8</b></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Gallery Section -->
+    <section class="images">
+        <div class="image-gallery">
+            <h3>Our Most Famous Dishes</h3>
+            <div class="gallery">
+                <img src="img/dal makhni.jpg" alt="Dal Makhni">
+                <img src="img/amritsari kulche.jpg" alt="Amritsari Kulche">
+                <img src="img/momo.jpg" alt="Momos">
+                <img src="img/sandwich.jpg" alt="Sandwich">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact: <a href="tel:+918847550373">8847550373</a> | Email: <a href="mailto:arwindxr4911@gmail.com">arwindxr4911@gmail.com</a></p>
+        <p>Follow us on:
+            <a href="https://www.instagram.com/arwinder.x49"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://www.snapchat.com/add/indxr49_s?share_id=nzQIk1Oha5k&locale=en-GB"><i class="fab fa-snapchat"></i> Snapchat</a>
+        </p>
+        <p>&copy; 2024 Arwinder's Hunger Hub. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navList = document.querySelector('.nav-list');
+        mobileMenu.addEventListener('click', () => {
+            navList.classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
